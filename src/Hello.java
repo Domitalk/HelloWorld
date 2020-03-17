@@ -14,10 +14,19 @@ public class Hello {
         // to access this data, we use the variable name and it points to the memory
         // when there is a built in method (aka Java operator)  like + it will assign the result to the variable
 
-        System.out.println(myFirstNumber);
+        int mySecondNumber = 12;
+        int myThirdNumber = myFirstNumber * 2;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+
+        System.out.println(myTotal);
+
+        int myLastOne = myTotal - 1000;
+
+        // to keep order of operations, keep the variables above the sout
+
+        System.out.println(myLastOne);
         // sout is the key shortcut for System.out.println();
         // variable should be stated without quotes obviously. quotes will make it String literal
-
 
     }
 }
